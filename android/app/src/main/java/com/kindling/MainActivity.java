@@ -1,7 +1,6 @@
 package com.kindling;
 
 import com.facebook.react.ReactActivity;
-import com.auth0.lock.react.LockReactPackage;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 
