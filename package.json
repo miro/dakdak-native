@@ -1,23 +1,22 @@
 {
-  "name": "Kindling",
-  "author": "Futurice",
-  "description": "React Native App Starter Kit for Android and iOS",
+  "name": "dakdak-native",
+  "author": "Miro Nieminen <miro.nieminen@gmail.com>",
+  "description": "iOS & Android client for KAJAANISKATE.NET",
   "license": "MIT",
-  "homepage": "http://getpepperoni.com",
-  "bugs": "https://github.com/futurice/pepperoni-app-kit/issues",
+  "homepage": "http://kajaaniskate.net",
+  "bugs": {
+    "url": "https://github.com/miro/dakdak-native/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/futurice/pepperoni-app-kit"
+    "url": "git+https://github.com/miro/dakdak-native.git"
   },
   "keywords": [
     "React Native",
-    "Starter Kit",
-    "Bitrise",
-    "Redux",
-    "Auth0"
+    "Redux"
   ],
-  "version": "1.0.0",
-  "private": false,
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "bundle:ios": "node ./node_modules/react-native/local-cli/cli.js bundle --platform ios --entry-file index.ios.js --bundle-output ios/Kindling/main.jsbundle --dev=false --minify --verbose",
@@ -36,7 +35,7 @@
     "react-dom": "^0.14.8",
     "react-native": "^0.25.1",
     "react-native-gifted-spinner": "0.0.4",
-    "react-native-lock": "futurice/react-native-lock#feature/customizedTheme",
+    "react-native-lock": "github:futurice/react-native-lock#feature/customizedTheme",
     "react-redux": "^4.4.5",
     "redux": "^3.4.0",
     "redux-logger": "^2.6.1",
@@ -63,5 +62,9 @@
     "react-addons-test-utils": "^0.14.8",
     "react-native-mock": "0.0.7",
     "sinon": "^1.17.4"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
