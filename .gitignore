@@ -41,6 +41,10 @@ env.js
 # CocoaPods
 ios/Pods/
 
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
 # BUCK
 buck-out/
 \.buckd/
