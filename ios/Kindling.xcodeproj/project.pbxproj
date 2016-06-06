@@ -21,7 +21,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		2C9F19AF7E33D161E1223EFB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8008CEA7D62886FB0D6BC7A6 /* libPods.a */; };
+		5A18B3108FB2F9D09F91D0CE /* libPods-Kindling.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14427A650A759BC862657C74 /* libPods-Kindling.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8635F6CB4C844BBAB75CCC75 /* libA0RNLock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D57E09588F4FB98692AFE1 /* libA0RNLock.a */; };
 		E42F50AD1CDBA94300705D4B /* pepperoni.png in Resources */ = {isa = PBXBuildFile; fileRef = E42F50AA1CDBA94300705D4B /* pepperoni.png */; };
@@ -135,17 +135,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Kindling/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Kindling/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Kindling/main.m; sourceTree = "<group>"; };
+		14427A650A759BC862657C74 /* libPods-Kindling.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kindling.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		34244268D8C4DC518144A0E4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		56D57E09588F4FB98692AFE1 /* libA0RNLock.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libA0RNLock.a; sourceTree = "<group>"; };
-		5D37E567D330668A02D828CA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
-		8008CEA7D62886FB0D6BC7A6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		BCE4BCDA352B4502A5025764 /* A0RNLock.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = A0RNLock.xcodeproj; path = "../node_modules/react-native-lock/A0RNLock.xcodeproj"; sourceTree = "<group>"; };
+		D3F693C182F67F785B3A0F95 /* Pods-Kindling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kindling.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kindling/Pods-Kindling.debug.xcconfig"; sourceTree = "<group>"; };
 		E42F50AA1CDBA94300705D4B /* pepperoni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pepperoni.png; path = ../images/pepperoni.png; sourceTree = "<group>"; };
 		E42F50AB1CDBA94300705D4B /* pepperoni@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pepperoni@2x.png"; path = "../images/pepperoni@2x.png"; sourceTree = "<group>"; };
 		E42F50AC1CDBA94300705D4B /* pepperoni@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pepperoni@3x.png"; path = "../images/pepperoni@3x.png"; sourceTree = "<group>"; };
+		ED61CC5C8DFE39B2D784A9F6 /* Pods-Kindling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kindling.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kindling/Pods-Kindling.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +171,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				8635F6CB4C844BBAB75CCC75 /* libA0RNLock.a in Frameworks */,
-				2C9F19AF7E33D161E1223EFB /* libPods.a in Frameworks */,
+				5A18B3108FB2F9D09F91D0CE /* libPods-Kindling.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,23 +273,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2EFF4A67692D23EA422256BE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				34244268D8C4DC518144A0E4 /* Pods.debug.xcconfig */,
-				5D37E567D330668A02D828CA /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		57E7EB909103A42A92BAB9C6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8008CEA7D62886FB0D6BC7A6 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,8 +315,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* KindlingTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				2EFF4A67692D23EA422256BE /* Pods */,
-				57E7EB909103A42A92BAB9C6 /* Frameworks */,
+				E8F878C90EE131C21675DE92 /* Pods */,
+				F920AE1284D40C6CC2B7575A /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -366,6 +349,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E8F878C90EE131C21675DE92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3F693C182F67F785B3A0F95 /* Pods-Kindling.debug.xcconfig */,
+				ED61CC5C8DFE39B2D784A9F6 /* Pods-Kindling.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F920AE1284D40C6CC2B7575A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14427A650A759BC862657C74 /* libPods-Kindling.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -391,13 +391,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Kindling" */;
 			buildPhases = (
-				3ED155751338B6B3E97265FF /* Check Pods Manifest.lock */,
+				9B6C5FB3A8CB5C1ABC6867E1 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				8D61D735F6C9CA23B18BFEEB /* Embed Pods Frameworks */,
-				A1BAF675EF6DE2C30BB1E20E /* Copy Pods Resources */,
+				EB80DD3875AEAF476D32BC18 /* [CP] Embed Pods Frameworks */,
+				B97C9E5EE3012B27FC6C7EEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -608,14 +608,14 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
-		3ED155751338B6B3E97265FF /* Check Pods Manifest.lock */ = {
+		9B6C5FB3A8CB5C1ABC6867E1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,34 +623,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8D61D735F6C9CA23B18BFEEB /* Embed Pods Frameworks */ = {
+		B97C9E5EE3012B27FC6C7EEC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kindling/Pods-Kindling-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A1BAF675EF6DE2C30BB1E20E /* Copy Pods Resources */ = {
+		EB80DD3875AEAF476D32BC18 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kindling/Pods-Kindling-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -745,7 +745,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34244268D8C4DC518144A0E4 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = D3F693C182F67F785B3A0F95 /* Pods-Kindling.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -767,7 +767,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D37E567D330668A02D828CA /* Pods.release.xcconfig */;
+			baseConfigurationReference = ED61CC5C8DFE39B2D784A9F6 /* Pods-Kindling.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
